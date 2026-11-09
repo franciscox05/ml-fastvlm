@@ -37,8 +37,7 @@ jobs:
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
             DEVELOPMENT_TEAM="" \
-            ENABLE_ON_DEMAND_RESOURCES=NO \
-            PRODUCT_BUNDLE_IDENTIFIER=com.franciscogomes33400.fastvlm
+            ENABLE_ON_DEMAND_RESOURCES=NO
 
       - name: Empacotar .ipa cru
         run: |
