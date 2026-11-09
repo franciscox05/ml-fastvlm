@@ -14,7 +14,7 @@ jobs:
       - name: Select Xcode
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '16.2'
+          xcode-version: 'latest-stable'
 
       - name: Listar schemes
         run: xcodebuild -list -project app/FastVLM.xcodeproj
